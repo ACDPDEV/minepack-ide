@@ -13,8 +13,10 @@ import {
   MenubarSubTrigger,
   MenubarTrigger,
 } from "@/components/ui/menubar";
+import { useTheme } from "@/stores/theme-provider";
 
 export function MenuOptions() {
+  const { setTheme } = useTheme();
   return (
     <ul className="flex flex-row text-muted-foreground">
       <MenubarMenu>
@@ -109,6 +111,25 @@ export function MenuOptions() {
           <MenubarSeparator />
           <MenubarGroup>
             <MenubarItem inset>Hide Sidebar</MenubarItem>
+          </MenubarGroup>
+          <MenubarSeparator />
+          <MenubarGroup>
+            <MenubarSub>
+              <MenubarSubTrigger inset>Theme</MenubarSubTrigger>
+              <MenubarSubContent>
+                <MenubarGroup>
+                  <MenubarItem onClick={() => setTheme("system")}>
+                    System
+                  </MenubarItem>
+                  <MenubarItem onClick={() => setTheme("dark")}>
+                    Dark
+                  </MenubarItem>
+                  <MenubarItem onClick={() => setTheme("light")}>
+                    Light
+                  </MenubarItem>
+                </MenubarGroup>
+              </MenubarSubContent>
+            </MenubarSub>
           </MenubarGroup>
         </MenubarContent>
       </MenubarMenu>

@@ -1,6 +1,6 @@
 import Activitybar from "./components/layout/activitybar";
 import { FileTree } from "./components/layout/file-tree";
-import { Navigationbar } from "./components/layout/navigationbar";
+import { BreadcrumbBar } from "./components/layout/breadcrumb";
 import Titlebar from "./components/layout/titlebar";
 import {
   ResizableHandle,
@@ -26,8 +26,11 @@ export default function App() {
         <ResizablePanel defaultSize="75%">
           <ResizablePanelGroup orientation="vertical">
             <ResizablePanel defaultSize="25%">
-              <div className="flex h-full items-center justify-center p-6">
-                <span className="font-semibold">File</span>
+              <div className="grid grid-rows-[auto_1fr] w-full h-full">
+                <BreadcrumbBar />
+                <div className="flex font-semibold w-full h-full justify-center items-center">
+                  File
+                </div>
               </div>
             </ResizablePanel>
             <ResizableHandle withHandle />
