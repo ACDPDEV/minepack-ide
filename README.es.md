@@ -44,16 +44,16 @@ git clone https://github.com/ACDPDEV/minepack-ide.git
 cd minepack-ide
 
 # Instalar dependencias
-npm install
+pnpm install
 
 # Ejecutar en modo desarrollo
-npm run tauri dev
+pnpm run tauri dev
 ```
 
 ### Compilar
 
 ```bash
-npm run tauri build
+pnpm run tauri build
 ```
 
 El instalador estará disponible en `src-tauri/target/release/bundle/`.
