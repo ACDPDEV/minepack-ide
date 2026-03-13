@@ -72,6 +72,8 @@ The installer will be available in `src-tauri/target/release/bundle/`.
 - [ ] Command palette (Ctrl+P)
 - [ ] Git integration
 
+![progress](public/progress.png)
+
 ---
 
 ## 🤝 Contributing

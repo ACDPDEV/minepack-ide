@@ -73,6 +73,8 @@ El instalador estará disponible en `src-tauri/target/release/bundle/`.
 - [ ] Pestañas de archivos
 - [ ] Integración con Git
 
+![progreso](public/progress.png)
+
 ---
 
 ## 🤝 Contribuir
