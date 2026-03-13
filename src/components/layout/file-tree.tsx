@@ -89,7 +89,7 @@ export function FileTree() {
         key={fileItem.name}
         variant="link"
         size="sm"
-        className="w-full justify-start gap-2 text-foreground"
+        className="w-full justify-start gap-2 text-muted-foreground"
       >
         <IconFile />
         <span>{fileItem.name}</span>
@@ -98,7 +98,7 @@ export function FileTree() {
   };
 
   return (
-    <div className="flex flex-col gap-1 px-2 py-4">
+    <div className="flex flex-col gap-1 px-2 py-4 text-muted-foreground">
       {fileTree.map((item) => renderItem(item))}
     </div>
   );
