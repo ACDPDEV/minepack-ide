@@ -64,7 +64,7 @@ El instalador estará disponible en `src-tauri/target/release/bundle/`.
 
 - [x] Layout base (sidebar, paneles, tabs)
 - [x] Cambio de tema (Claro / Oscuro / Sistema)
-- [] Explorador de archivos
+- [ ] Explorador de archivos
 - [ ] Integración de Monaco Editor
 - [ ] Terminal integrada (xterm.js)
 - [ ] Integración con minepack-compiler
