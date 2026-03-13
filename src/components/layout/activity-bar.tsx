@@ -8,7 +8,7 @@ import {
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
 
-export default function Activitybar() {
+export default function ActivityBar() {
   return (
     <nav className="flex flex-col h-full border-r border-border justify-between items-center text-muted-foreground">
       <ul className="flex flex-col">

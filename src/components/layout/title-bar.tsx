@@ -2,7 +2,7 @@ import { Menubar } from "../ui/menubar";
 import { MenuOptions } from "./menu-options";
 import { WindowActions } from "./window-actions";
 
-export default function Titlebar() {
+export default function TitleBar() {
   return (
     <Menubar className="flex flex-row h-fit w-screen items-center justify-between rounded-none">
       <div className="flex flex-row gap-4 items-center">
