@@ -15,10 +15,11 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { cn } from "@/lib/utils";
 
-export function Navigationbar() {
+export function BreadcrumbBar() {
   return (
-    <Breadcrumb>
+    <Breadcrumb className={cn("px-4 py-2 border-b border-border")}>
       <BreadcrumbList>
         <BreadcrumbItem>
           <BreadcrumbLink asChild>
