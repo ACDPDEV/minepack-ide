@@ -1,24 +1,25 @@
-import Activitybar from "./components/layout/activitybar";
+import ActivityBar from "./components/layout/activity-bar";
 import { FileTree } from "./components/layout/file-tree";
 import { BreadcrumbBar } from "./components/layout/breadcrumb";
-import Titlebar from "./components/layout/titlebar";
+import TitleBar from "./components/layout/title-bar";
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
 } from "./components/ui/resizable";
+import StatusBar from "./components/layout/status-bar";
 
 export default function App() {
   return (
-    <main className="w-screen h-screen grid grid-rows-[auto_1fr]">
-      <Titlebar />
+    <main className="w-screen h-screen grid grid-rows-[auto_1fr_auto]">
+      <TitleBar />
       <ResizablePanelGroup
         orientation="horizontal"
         className="w-full h-full border"
       >
         <ResizablePanel defaultSize="25%">
           <div className="grid grid-cols-[auto_1fr] h-full">
-            <Activitybar />
+            <ActivityBar />
             <FileTree />
           </div>
         </ResizablePanel>
@@ -42,6 +43,7 @@ export default function App() {
           </ResizablePanelGroup>
         </ResizablePanel>
       </ResizablePanelGroup>
+      <StatusBar />
     </main>
   );
 }
