@@ -8,6 +8,7 @@ import {
   ResizablePanelGroup,
 } from "./components/ui/resizable";
 import StatusBar from "./components/layout/status-bar";
+import { FileBar } from "./components/layout/file-bar";
 
 export default function App() {
   return (
@@ -27,7 +28,8 @@ export default function App() {
         <ResizablePanel defaultSize="75%">
           <ResizablePanelGroup orientation="vertical">
             <ResizablePanel defaultSize="25%">
-              <div className="grid grid-rows-[auto_1fr] w-full h-full">
+              <div className="grid grid-rows-[auto_auto_1fr] w-full h-full">
+                <FileBar />
                 <BreadcrumbBar />
                 <div className="flex font-semibold w-full h-full justify-center items-center">
                   File
