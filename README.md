@@ -1,6 +1,6 @@
 # Minepack IDE
 
-![Logo](src/assets/logo.svg)
+![Logo](public/logo.svg)
 
 > ⚠️ **Work in Progress** — This project is under active development. Expect breaking changes.
 

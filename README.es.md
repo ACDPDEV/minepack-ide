@@ -1,6 +1,6 @@
 # Minepack IDE
 
-![Logo](src/assets/logo.svg)
+![Logo](public/logo.svg)
 
 > ⚠️ **En desarrollo** — Este proyecto está en desarrollo activo. Pueden haber cambios importantes.
 
