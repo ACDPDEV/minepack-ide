@@ -12,6 +12,10 @@ import {
 import { Input } from "../ui/input";
 import { useState } from "react";
 import ProjectTab from "./settings/project-tab";
+import AppearanceTab from "./settings/appearance-tab";
+import EditorTab from "./settings/editor-tab";
+import VersionControlTab from "./settings/version-control-tab";
+import KeybindingsTab from "./settings/keybindings-tab";
 
 type SettingTab = "project" | "appearance" | "editor" | "keybindings" | "git";
 
@@ -79,7 +83,11 @@ export function ConfigButton() {
               ))}
             </ul>
           </div>
-          <ProjectTab />
+          {tab === "project" && <ProjectTab />}
+          {tab === "appearance" && <AppearanceTab />}
+          {tab === "editor" && <EditorTab />}
+          {tab === "keybindings" && <KeybindingsTab />}
+          {tab === "git" && <VersionControlTab />}
         </div>
       </DialogContent>
     </Dialog>
