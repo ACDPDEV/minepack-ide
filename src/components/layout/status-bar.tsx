@@ -3,10 +3,8 @@ import {
   IconBrandGithub,
   IconCircleX,
 } from "@tabler/icons-react";
-import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import { ButtonGroup } from "../ui/button-group";
-import { cn } from "@/lib/utils";
 
 export default function StatusBar() {
   return (
