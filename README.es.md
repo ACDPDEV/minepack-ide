@@ -1,5 +1,7 @@
 # Minepack IDE
 
+![Logo](src/assets/logo.svg)
+
 > ⚠️ **En desarrollo** — Este proyecto está en desarrollo activo. Pueden haber cambios importantes.
 
 Un IDE moderno y multiplataforma para el desarrollo de datapacks de Minecraft, construido con [Tauri](https://tauri.app/) + React e impulsado por [minepack-compiler](https://github.com/ACDPDEV/minepack-compiler) — un compilador nativo en Rust para datapacks.
