@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **Project Status (March 15, 2026):** This project is currently undergoing a major **internal restructuring**. Due to significant architectural changes and a pivot in the IDE's core objectives, the repository will likely be reset or migrated soon. We recommend caution when forking or contributing to this branch until the new stable structure is officially deployed.
+
+Readme Language: **English** | [Spanish](README.es.md)
+
 # Minepack IDE
 
 ![Logo](public/logo.svg)
