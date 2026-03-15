@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **Estado del Proyecto (15 de marzo de 2026):** Este proyecto se encuentra actualmente en una fase de **reestructuración interna profunda**. Debido a cambios significativos en la arquitectura y los objetivos principales del IDE, es muy probable que el repositorio sea reiniciado o migrado próximamente. Se recomienda discreción al realizar forks o contribuciones en esta rama hasta que se publique la nueva estructura estable.
+
+Lenguaje del README: **Español** | [Inglés](README.md)
+
 # Minepack IDE
 
 ![Logo](public/logo.svg)
